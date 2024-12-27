@@ -2,8 +2,9 @@
 
 A modern, responsive URL shortening application built with React, TypeScript, and Shadcn/UI.
 
-![URL Shortener Screenshot]
-[Add a screenshot of your application here]
+
+<img width="928" alt="image" src="https://github.com/user-attachments/assets/e4f095cd-f06b-4695-897d-308c564ae90b" />
+
 
 ## Features
 
