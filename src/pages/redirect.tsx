@@ -16,9 +16,16 @@ const Redirect = () => {
           throw new Error("URL not found");
         }
 
-        const urlToRedirect = originalUrl.startsWith('http') 
-          ? originalUrl 
-          : `http://${originalUrl}`;
+        const isCloudflareUrl = originalUrl.includes('shortener.virhanalli.com');
+        
+        let urlToRedirect;
+        if (isCloudflareUrl) {
+          urlToRedirect = originalUrl;
+        } else {
+          urlToRedirect = originalUrl.startsWith('http') 
+            ? originalUrl 
+            : `http://${originalUrl}`;
+        }
 
         window.location.href = urlToRedirect;
       } catch (error) {
