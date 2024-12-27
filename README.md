@@ -87,21 +87,6 @@ The application will be available at `http://localhost:8001`
 3. Copy the shortened URL using the "Copy" button
 4. Share your shortened URL!
 
-## Project Structure
-
-url-shortener/
-├── src/
-│ ├── components/
-│ │ ├── ui/ # Shadcn UI components
-│ │ ├── UrlShortener.tsx
-│ │ └── ThemeToggle.tsx
-│ ├── pages/
-│ │ ├── Index.tsx # Main page
-│ │ └── redirect.tsx # Redirect handler
-│ └── main.tsx # Application entry point
-├── public/
-└── docker/
-
 ## Contributing
 
 1. Fork the repository
